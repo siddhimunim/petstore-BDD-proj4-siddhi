@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: io.swagger.petstore.testsuits.TagWithPetRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.596 sec - in io.swagger.petstore.testsuits.TagWithPetRunner

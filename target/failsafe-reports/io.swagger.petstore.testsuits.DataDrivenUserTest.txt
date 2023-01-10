@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: io.swagger.petstore.testsuits.DataDrivenUserTest
+-------------------------------------------------------------------------------
+Tests run: 25, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.335 sec - in io.swagger.petstore.testsuits.DataDrivenUserTest

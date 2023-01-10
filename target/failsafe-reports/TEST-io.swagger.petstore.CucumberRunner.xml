@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.swagger.petstore.CucumberRunner" time="2.101" tests="72" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="idea.version" value="2021.3.2"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\hvtha\petstore-cucumberBDD-proj4-siddhi"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\hvtha\petstore-cucumberBDD-proj4-siddhi"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\hvtha\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramFiles\Java\jdk1.8.0_121\bin;C:\Program Files\Git\cmd;C:\Program Files\Apache\apache-maven-3.8.5\bin;C:\Program Files\nodejs\;C:\Users\hvtha\AppData\Local\Microsoft\WindowsApps;C:\Users\hvtha\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\hvtha"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="hvtha"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3\boot\plexus-classworlds.license;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3.2 clean verify serenity:aggregate"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.2\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given Pet store creating new pet data" classname="| 5 | 4 | huskey | dog | http://dummyimage.com/202x100.png/dddddd/000000 | 32 | bruno | available |" time="0.001"/>
+  <testcase name="When I create a new pet by providing the information id &quot;5&quot; idFirst &quot;4&quot; name &quot;huskey&quot; nameFirst &quot;dog&quot; photoUrl&quot;http://dummyimage.com/202x100.png/dddddd/000000&quot;idsecond &quot;32&quot; namesecond &quot;bruno&quot; status&quot;available&quot;" classname="| 5 | 4 | huskey | dog | http://dummyimage.com/202x100.png/dddddd/000000 | 32 | bruno | available |" time="0"/>
+  <testcase name="Then I verify A pet with &quot;5&quot; is created" classname="| 5 | 4 | huskey | dog | http://dummyimage.com/202x100.png/dddddd/000000 | 32 | bruno | available |" time="0"/>
+  <testcase name="And I update the pet information  id &quot;5&quot; idFirst &quot;4&quot; name &quot;huskey&quot; nameFirst &quot;dog&quot; photoUrl&quot;http://dummyimage.com/202x100.png/dddddd/000000&quot;idsecond &quot;32&quot; namesecond &quot;bruno&quot; status&quot;available&quot;" classname="| 5 | 4 | huskey | dog | http://dummyimage.com/202x100.png/dddddd/000000 | 32 | bruno | available |" time="0"/>
+  <testcase name="And A pet update with &quot;5&quot; is successfully" classname="| 5 | 4 | huskey | dog | http://dummyimage.com/202x100.png/dddddd/000000 | 32 | bruno | available |" time="0"/>
+  <testcase name="And I delete the pet that created with &quot;5&quot;" classname="| 5 | 4 | huskey | dog | http://dummyimage.com/202x100.png/dddddd/000000 | 32 | bruno | available |" time="0"/>
+  <testcase name="Then the pet deleted succesfully from the application" classname="| 5 | 4 | huskey | dog | http://dummyimage.com/202x100.png/dddddd/000000 | 32 | bruno | available |" time="0"/>
+  <testcase name="| 5 | 4 | huskey | dog | http://dummyimage.com/202x100.png/dddddd/000000 | 32 | bruno | available |" classname="| 5 | 4 | huskey | dog | http://dummyimage.com/202x100.png/dddddd/000000 | 32 | bruno | available |" time="0.007"/>
+  <testcase name="Given Pet store creating new pet data" classname="| 25 | 66 | Kangaroo | African black crake | http://dummyimage.com/188x100.png/5fa2dd/ffffff | 72 | Three-banded plover | non available |" time="0"/>
+  <testcase name="When I create a new pet by providing the information id &quot;25&quot; idFirst &quot;66&quot; name &quot;Kangaroo&quot; nameFirst &quot;African black crake&quot; photoUrl&quot;http://dummyimage.com/188x100.png/5fa2dd/ffffff&quot;idsecond &quot;72&quot; namesecond &quot;Three-banded plover&quot; status&quot;non available&quot;" classname="| 25 | 66 | Kangaroo | African black crake | http://dummyimage.com/188x100.png/5fa2dd/ffffff | 72 | Three-banded plover | non available |" time="0.001"/>
+  <testcase name="Then I verify A pet with &quot;25&quot; is created" classname="| 25 | 66 | Kangaroo | African black crake | http://dummyimage.com/188x100.png/5fa2dd/ffffff | 72 | Three-banded plover | non available |" time="0"/>
+  <testcase name="And I update the pet information  id &quot;25&quot; idFirst &quot;66&quot; name &quot;Kangaroo&quot; nameFirst &quot;African black crake&quot; photoUrl&quot;http://dummyimage.com/188x100.png/5fa2dd/ffffff&quot;idsecond &quot;72&quot; namesecond &quot;Three-banded plover&quot; status&quot;non available&quot;" classname="| 25 | 66 | Kangaroo | African black crake | http://dummyimage.com/188x100.png/5fa2dd/ffffff | 72 | Three-banded plover | non available |" time="0"/>
+  <testcase name="And A pet update with &quot;25&quot; is successfully" classname="| 25 | 66 | Kangaroo | African black crake | http://dummyimage.com/188x100.png/5fa2dd/ffffff | 72 | Three-banded plover | non available |" time="0"/>
+  <testcase name="And I delete the pet that created with &quot;25&quot;" classname="| 25 | 66 | Kangaroo | African black crake | http://dummyimage.com/188x100.png/5fa2dd/ffffff | 72 | Three-banded plover | non available |" time="0"/>
+  <testcase name="Then the pet deleted succesfully from the application" classname="| 25 | 66 | Kangaroo | African black crake | http://dummyimage.com/188x100.png/5fa2dd/ffffff | 72 | Three-banded plover | non available |" time="0"/>
+  <testcase name="| 25 | 66 | Kangaroo | African black crake | http://dummyimage.com/188x100.png/5fa2dd/ffffff | 72 | Three-banded plover | non available |" classname="| 25 | 66 | Kangaroo | African black crake | http://dummyimage.com/188x100.png/5fa2dd/ffffff | 72 | Three-banded plover | non available |" time="0.002"/>
+  <testcase name="Given Pet store creating new pet data" classname="| 52 | 45 | Grey Rhia | Duck | http://dummyimage.com/213x100.png/ff4444/ffffff | 45 | Katie | available |" time="0"/>
+  <testcase name="When I create a new pet by providing the information id &quot;52&quot; idFirst &quot;45&quot; name &quot;Grey Rhia&quot; nameFirst &quot;Duck&quot; photoUrl&quot;http://dummyimage.com/213x100.png/ff4444/ffffff&quot;idsecond &quot;45&quot; namesecond &quot;Katie&quot; status&quot;available&quot;" classname="| 52 | 45 | Grey Rhia | Duck | http://dummyimage.com/213x100.png/ff4444/ffffff | 45 | Katie | available |" time="0"/>
+  <testcase name="Then I verify A pet with &quot;52&quot; is created" classname="| 52 | 45 | Grey Rhia | Duck | http://dummyimage.com/213x100.png/ff4444/ffffff | 45 | Katie | available |" time="0"/>
+  <testcase name="And I update the pet information  id &quot;52&quot; idFirst &quot;45&quot; name &quot;Grey Rhia&quot; nameFirst &quot;Duck&quot; photoUrl&quot;http://dummyimage.com/213x100.png/ff4444/ffffff&quot;idsecond &quot;45&quot; namesecond &quot;Katie&quot; status&quot;available&quot;" classname="| 52 | 45 | Grey Rhia | Duck | http://dummyimage.com/213x100.png/ff4444/ffffff | 45 | Katie | available |" time="0"/>
+  <testcase name="And A pet update with &quot;52&quot; is successfully" classname="| 52 | 45 | Grey Rhia | Duck | http://dummyimage.com/213x100.png/ff4444/ffffff | 45 | Katie | available |" time="0"/>
+  <testcase name="And I delete the pet that created with &quot;52&quot;" classname="| 52 | 45 | Grey Rhia | Duck | http://dummyimage.com/213x100.png/ff4444/ffffff | 45 | Katie | available |" time="0"/>
+  <testcase name="Then the pet deleted succesfully from the application" classname="| 52 | 45 | Grey Rhia | Duck | http://dummyimage.com/213x100.png/ff4444/ffffff | 45 | Katie | available |" time="0"/>
+  <testcase name="| 52 | 45 | Grey Rhia | Duck | http://dummyimage.com/213x100.png/ff4444/ffffff | 45 | Katie | available |" classname="| 52 | 45 | Grey Rhia | Duck | http://dummyimage.com/213x100.png/ff4444/ffffff | 45 | Katie | available |" time="1.65"/>
+  <testcase name="When I create a pet with  endpoint id" classname="Scenario: check all pets added into petstores and verify status code" time="0"/>
+  <testcase name="Then I must get back a valid status code 200" classname="Scenario: check all pets added into petstores and verify status code" time="0"/>
+  <testcase name="Scenario: check all pets added into petstores and verify status code" classname="Scenario: check all pets added into petstores and verify status code" time="0.099"/>
+  <testcase name="When I send a get request to pet using petId endpoint" classname="Scenario: get  single pet data using by id" time="0"/>
+  <testcase name="Then I must get single pet data" classname="Scenario: get  single pet data using by id" time="0"/>
+  <testcase name="Scenario: get  single pet data using by id" classname="Scenario: get  single pet data using by id" time="0.085"/>
+  <testcase name="Scenario: get  single pet data using by id" classname="Scenario: get  single pet data using by id" time="0.069"/>
+  <testcase name="When I update a pet with name" classname="Scenario: update pet with name" time="0"/>
+  <testcase name="Then I verify with endpoint pet id" classname="Scenario: update pet with name" time="0"/>
+  <testcase name="Scenario: update pet with name" classname="Scenario: update pet with name" time="0.053"/>
+  <testcase name="Scenario: update pet with name" classname="Scenario: update pet with name" time="0.086"/>
+  <testcase name="When I delete a pet with endpoint of id" classname="Scenario: Delete pet with using id and vberify" time="0"/>
+  <testcase name="Then I must get valid response" classname="Scenario: Delete pet with using id and vberify" time="0"/>
+  <testcase name="Scenario: Delete pet with using id and vberify" classname="Scenario: Delete pet with using id and vberify" time="0.056"/>
+  <testcase name="Scenario: Delete pet with using id and vberify" classname="Scenario: Delete pet with using id and vberify" time="0.068"/>
+  <testcase name="Given Pet store Application running" classname="| 1 | BeaMc | Bea | McCreagh | bmccreagh0@gmail.com | jpdrmzu | 857-145-3487 | 45 |" time="0"/>
+  <testcase name="When I create new user by providing the information id &quot;1&quot; username &quot;BeaMc&quot; firstName&quot;Bea&quot; lastName &quot;McCreagh&quot;  email &quot;bmccreagh0@gmail.com&quot; password&quot;jpdrmzu&quot; phone &quot;857-145-3487&quot;userStatus &quot;45&quot;" classname="| 1 | BeaMc | Bea | McCreagh | bmccreagh0@gmail.com | jpdrmzu | 857-145-3487 | 45 |" time="0"/>
+  <testcase name="Then I get that created user  with &quot;BeaMc&quot; is created" classname="| 1 | BeaMc | Bea | McCreagh | bmccreagh0@gmail.com | jpdrmzu | 857-145-3487 | 45 |" time="0"/>
+  <testcase name="And I update the user with information  id &quot;1&quot; username &quot;BeaMc&quot; firstName&quot;Bea&quot; lastName &quot;McCreagh&quot;  email &quot;bmccreagh0@gmail.com&quot; password&quot;jpdrmzu&quot; phone &quot;857-145-3487&quot;userStatus &quot;45&quot;" classname="| 1 | BeaMc | Bea | McCreagh | bmccreagh0@gmail.com | jpdrmzu | 857-145-3487 | 45 |" time="0"/>
+  <testcase name="And I verify user updated with &quot;BeaMc&quot; successfully" classname="| 1 | BeaMc | Bea | McCreagh | bmccreagh0@gmail.com | jpdrmzu | 857-145-3487 | 45 |" time="0"/>
+  <testcase name="And I delete created user with username &quot;BeaMc&quot;" classname="| 1 | BeaMc | Bea | McCreagh | bmccreagh0@gmail.com | jpdrmzu | 857-145-3487 | 45 |" time="0"/>
+  <testcase name="Then The user deleted successfully" classname="| 1 | BeaMc | Bea | McCreagh | bmccreagh0@gmail.com | jpdrmzu | 857-145-3487 | 45 |" time="0"/>
+  <testcase name="| 1 | BeaMc | Bea | McCreagh | bmccreagh0@gmail.com | jpdrmzu | 857-145-3487 | 45 |" classname="| 1 | BeaMc | Bea | McCreagh | bmccreagh0@gmail.com | jpdrmzu | 857-145-3487 | 45 |" time="0.002"/>
+  <testcase name="Given Pet store Application running" classname="| 2 | RaMa | Raquela | Mallion | rmallion1@gmail.gov | 40Z1hj95I | 557-365-6375 | 1 |" time="0"/>
+  <testcase name="When I create new user by providing the information id &quot;2&quot; username &quot;RaMa&quot; firstName&quot;Raquela&quot; lastName &quot;Mallion&quot;  email &quot;rmallion1@gmail.gov&quot; password&quot;40Z1hj95I&quot; phone &quot;557-365-6375&quot;userStatus &quot;1&quot;" classname="| 2 | RaMa | Raquela | Mallion | rmallion1@gmail.gov | 40Z1hj95I | 557-365-6375 | 1 |" time="0"/>
+  <testcase name="Then I get that created user  with &quot;RaMa&quot; is created" classname="| 2 | RaMa | Raquela | Mallion | rmallion1@gmail.gov | 40Z1hj95I | 557-365-6375 | 1 |" time="0"/>
+  <testcase name="And I update the user with information  id &quot;2&quot; username &quot;RaMa&quot; firstName&quot;Raquela&quot; lastName &quot;Mallion&quot;  email &quot;rmallion1@gmail.gov&quot; password&quot;40Z1hj95I&quot; phone &quot;557-365-6375&quot;userStatus &quot;1&quot;" classname="| 2 | RaMa | Raquela | Mallion | rmallion1@gmail.gov | 40Z1hj95I | 557-365-6375 | 1 |" time="0"/>
+  <testcase name="And I verify user updated with &quot;RaMa&quot; successfully" classname="| 2 | RaMa | Raquela | Mallion | rmallion1@gmail.gov | 40Z1hj95I | 557-365-6375 | 1 |" time="0"/>
+  <testcase name="And I delete created user with username &quot;RaMa&quot;" classname="| 2 | RaMa | Raquela | Mallion | rmallion1@gmail.gov | 40Z1hj95I | 557-365-6375 | 1 |" time="0"/>
+  <testcase name="Then The user deleted successfully" classname="| 2 | RaMa | Raquela | Mallion | rmallion1@gmail.gov | 40Z1hj95I | 557-365-6375 | 1 |" time="0"/>
+  <testcase name="| 2 | RaMa | Raquela | Mallion | rmallion1@gmail.gov | 40Z1hj95I | 557-365-6375 | 1 |" classname="| 2 | RaMa | Raquela | Mallion | rmallion1@gmail.gov | 40Z1hj95I | 557-365-6375 | 1 |" time="0.003"/>
+  <testcase name="Given Pet store Application running" classname="| 3 | DonaHo | Donall | Houlahan | dhoulahan2@gmail.com | fjk6KZ | 782-693-5326 | 45 |" time="0"/>
+  <testcase name="When I create new user by providing the information id &quot;3&quot; username &quot;DonaHo&quot; firstName&quot;Donall&quot; lastName &quot;Houlahan&quot;  email &quot;dhoulahan2@gmail.com&quot; password&quot;fjk6KZ&quot; phone &quot;782-693-5326&quot;userStatus &quot;45&quot;" classname="| 3 | DonaHo | Donall | Houlahan | dhoulahan2@gmail.com | fjk6KZ | 782-693-5326 | 45 |" time="0"/>
+  <testcase name="Then I get that created user  with &quot;DonaHo&quot; is created" classname="| 3 | DonaHo | Donall | Houlahan | dhoulahan2@gmail.com | fjk6KZ | 782-693-5326 | 45 |" time="0"/>
+  <testcase name="And I update the user with information  id &quot;3&quot; username &quot;DonaHo&quot; firstName&quot;Donall&quot; lastName &quot;Houlahan&quot;  email &quot;dhoulahan2@gmail.com&quot; password&quot;fjk6KZ&quot; phone &quot;782-693-5326&quot;userStatus &quot;45&quot;" classname="| 3 | DonaHo | Donall | Houlahan | dhoulahan2@gmail.com | fjk6KZ | 782-693-5326 | 45 |" time="0"/>
+  <testcase name="And I verify user updated with &quot;DonaHo&quot; successfully" classname="| 3 | DonaHo | Donall | Houlahan | dhoulahan2@gmail.com | fjk6KZ | 782-693-5326 | 45 |" time="0"/>
+  <testcase name="And I delete created user with username &quot;DonaHo&quot;" classname="| 3 | DonaHo | Donall | Houlahan | dhoulahan2@gmail.com | fjk6KZ | 782-693-5326 | 45 |" time="0"/>
+  <testcase name="Then The user deleted successfully" classname="| 3 | DonaHo | Donall | Houlahan | dhoulahan2@gmail.com | fjk6KZ | 782-693-5326 | 45 |" time="0"/>
+  <testcase name="| 3 | DonaHo | Donall | Houlahan | dhoulahan2@gmail.com | fjk6KZ | 782-693-5326 | 45 |" classname="| 3 | DonaHo | Donall | Houlahan | dhoulahan2@gmail.com | fjk6KZ | 782-693-5326 | 45 |" time="0.081"/>
+  <testcase name="When I create a user" classname="Scenario: check user added into petstores and verify status code" time="0"/>
+  <testcase name="Then I must get back a valid status code" classname="Scenario: check user added into petstores and verify status code" time="0"/>
+  <testcase name="Scenario: check user added into petstores and verify status code" classname="Scenario: check user added into petstores and verify status code" time="0.06"/>
+  <testcase name="When I send a get request to user using username endpoint" classname="Scenario: get  single pet data using by id" time="0.001"/>
+  <testcase name="Then I must have valid status code 200" classname="Scenario: get  single pet data using by id" time="0"/>
+  <testcase name="When I update a user with name" classname="Scenario: update pet with name" time="0"/>
+  <testcase name="Then I verify with endpoint by username and validate status" classname="Scenario: update pet with name" time="0"/>
+  <testcase name="When I delete a user with endpoint of username" classname="Scenario: Delete pet with using id and vberify" time="0"/>
+  <testcase name="Then I must get valid response of deleted user" classname="Scenario: Delete pet with using id and vberify" time="0"/>
+</testsuite>

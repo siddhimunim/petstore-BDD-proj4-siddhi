@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.swagger.petstore.testsuits.DataDrivenUserTest" skipped="0" tests="25" time="13.3" timestamp="2023-01-10T16:25:36.830Z[Europe/London]"><testcase classname="io.swagger.petstore.testsuits.DataDrivenUserTest" name="data driven test for multiple user create"/></testsuite>
